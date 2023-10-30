@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* ==================== HEADER ==================== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  position: fixed;
+  width: 100%;
+  height: 65px;
+  background: linear-gradient(to top, #190435, #000000);
+}
+
+.logo {
+  height: 90%;
+}
+
+.navbar,
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  gap: 10rem;
+}
+
+.navbar-list {
+  gap: 30px;
+}
+
+.navbar-list a {
+  color: #fff;
+}
+
+/* ==================== MAIN ==================== */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(to top, #000000, #190435, #000000);
+}
+
+/* ==================== HERO ==================== */
+#hero {
+  margin-top: 65px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../Img/Joystick.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  /* border: 1px solid #ff0000; */
+}
+
+.hero-info h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: white;
+  filter: drop-shadow(1px 1px 5px #b40a0a);
+  /* border: 1px solid #b3ff03; */
+}
+
+.hero-info p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 90px 0 90px;
+  margin: 8px 0 0 450px;
+  width: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  filter: drop-shadow(1px 1px 5px #b40a0a);
+  color: white;
+  /* border: 1px solid #b3ff03; */
+}
+
+.hero-info button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 840px;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #000000;
+  background-color: white;
+
+  font-weight: bold;
+}
+
+.hero-info button:hover {
+  color: white;
+  background-color: #000000;
+}
+
+/* ==================== ABOUT ==================== */
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 40px;
+  /* border: 4px solid #b3ff03; */
+}
+
+.about-info h2 {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  background: linear-gradient(to top, #fff, #6b13df);
+  filter: drop-shadow(1px 1px 1px #000000);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.about-info p {
+  color: #fff;
+  width: 81%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  font-size: 17px;
+  text-align: center;
+  /* border: 4px solid #b3ff03; */
+}
+
+.about-info span {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+  background: linear-gradient(to bottom, #fff, #6b13df);
+  filter: drop-shadow(1px 1px 5px #000000);
+  /* filter: drop-shadow(1px 1px 1px #6b6b6b); */
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.about-info li {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* text-align: center; */
+  color: #fff;
+  margin-left: 10%;
+  margin-top: 20px;
+  width: 83%;
+  /* border: 4px solid #b3ff03; */
+}
+
+/* ==================== FOOTER ==================== */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  /* margin-top: 60vh; */
+  background: linear-gradient(to top, #190435, #000000);
+}
+
+footer img {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 1px;
+}
+
+footer p {
+  color: white;
+}
