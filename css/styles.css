@@ -46,6 +46,11 @@ body {
   color: #fff;
 }
 
+#menu-toggle,
+.menu-label {
+  display: none;
+}
+
 /* ==================== MAIN ==================== */
 main {
   display: flex;
@@ -58,15 +63,16 @@ main {
 
 /* ==================== HERO ==================== */
 #hero {
-  margin-top: 65px;
-  height: 800px;
+  /* margin-top: 65px; */
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url("../img/Joystick.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
+  height: 900px;
+  width: auto;
   /* border: 1px solid #ff0000; */
 }
 
@@ -75,11 +81,9 @@ main {
   justify-content: center;
   align-items: center;
   font-size: 60px;
-  width: 100%;
-  margin-bottom: 20px;
+  width: fit-content;
+  margin: 0 auto;
   color: white;
-  filter: drop-shadow(1px 1px 5px #b40a0a);
-  /* border: 1px solid #b3ff03; */
 }
 
 .hero-info p {
@@ -87,12 +91,10 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 90px 0 90px;
-  margin: 8px 0 0 450px;
+  margin: 0 auto;
   width: 50%;
   font-size: 18px;
   font-weight: bold;
-  filter: drop-shadow(1px 1px 5px #b40a0a);
   color: white;
   /* border: 1px solid #b3ff03; */
 }
@@ -132,7 +134,7 @@ main {
   margin-top: 20px;
   padding-bottom: 30px;
   background: linear-gradient(to top, #fff, #6b13df);
-  filter: drop-shadow(1px 1px 1px #000000);
+  /* filter: drop-shadow(1px 1px 1px #000000); */
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -153,7 +155,7 @@ main {
   margin-bottom: 5px;
   text-align: left;
   background: linear-gradient(to bottom, #fff, #6b13df);
-  filter: drop-shadow(1px 1px 5px #000000);
+  /* filter: drop-shadow(1px 1px 5px #000000); */
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -187,7 +189,7 @@ main {
 
 #cards h2 {
   background: linear-gradient(to top, #fff, #6b13df);
-  filter: drop-shadow(1px 1px 1px #000000);
+  /* filter: drop-shadow(1px 1px 1px #000000); */
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -450,7 +452,7 @@ main {
 }
 #contacto h2 {
   background: linear-gradient(to top, #fff, #6b13df);
-  filter: drop-shadow(1px 1px 1px #000000);
+  /* filter: drop-shadow(1px 1px 1px #000000); */
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
