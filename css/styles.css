@@ -63,7 +63,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../Img/Joystick.jpg");
+  background-image: url("../img/Joystick.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
